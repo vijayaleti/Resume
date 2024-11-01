@@ -1,0 +1,89 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+header p {
+    color: #555;
+    font-size: 1em;
+}
+
+header a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+section p, section ul, .job, .degree {
+    color: #555;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.job, .degree {
+    margin-bottom: 15px;
+}
+
+.job h3, .degree h3 {
+    font-size: 1.4em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.institution, .grad-date {
+    font-size: 1em;
+    color: #777;
+}
+
+.degree .grad-date {
+    font-style: italic;
+    color: #555;
+}
+
+section:hover {
+    background-color: #e3f2fd;
+}
+
+.skills ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    color: #555;
+}
+
+.skills li {
+    margin-bottom: 8px;
+}
